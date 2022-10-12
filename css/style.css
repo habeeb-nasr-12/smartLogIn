@@ -1,0 +1,40 @@
+body{
+    background-color: #D8D9CF;
+}
+.container{
+    background-color: #EDEDED;
+}
+.welcome {
+    background-color: unset;
+}
+.Sign-up-txt{
+    font-size: 20px;
+}
+
+.Sign-up-txt a{
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    -moz-transition: 0.4s all;
+    -ms-transition: 0.4s all;
+    -o-transition: 0.4s all;
+}
+.Sign-up-txt a:hover{
+    text-decoration: underline !important;
+}
+.samrtloginbar{
+    background-color: #EDEDED;
+    
+}
+.samrtloginbar p {
+    font-size: 20px;
+}
+
+img{
+    height: 300px;
+}
+@media screen and(max-width:1200px){
+    
+img{
+    height: 250px;
+}
+}
